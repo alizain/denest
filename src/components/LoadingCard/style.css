@@ -1,0 +1,31 @@
+@keyframes loading {
+  0% {
+      transform: scale(0);
+      opacity: 0.8;
+  }
+  15% {
+      transform: scale(0);
+      opacity: 0.8;
+  }
+  60% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  85% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+section.loading {
+  .icon {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    margin: auto;
+    border: 2px solid gray(84%);
+    animation: loading 1.8s 0s infinite cubic-bezier(0.6, 0.2, 0.4, 0.8);
+  }
+}

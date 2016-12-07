@@ -1,0 +1,109 @@
+.comment {
+  margin-bottom: 1.8rem;
+
+  &:last-child {
+    margin-bottom: 0
+  }
+
+  .meta {
+    display: flex;
+    flex-direction: row;
+    p {
+      margin-bottom: 0;
+      font-size: 0.75rem;
+      color: gray(72%);
+      padding-left: 0.45rem;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+    strong {
+      color: gray(60%);
+      font-weight: 600;
+    }
+  }
+
+  .controls {
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    text-align: center;
+    .prev,
+    .next {
+      color: hsl(348, 32%, 58%);
+      color: #EF8354;
+      flex: 1;
+      cursor: pointer;
+      &:disabled {
+        color: hsl(348, 32%, 96%);
+        color: gray(72%);
+        pointer-events: none;
+      }
+    }
+    .prev {
+      text-align: right;
+      margin-right: 0.9rem;
+    }
+    .next {
+      text-align: left;
+      margin-left: 0.9rem;
+    }
+    .indicators {
+      .index {
+        margin: 0 2px;
+        color: gray(72%);
+        &.current {
+          color: #EF8354;
+        }
+        &.ellipses {
+
+        }
+      }
+    }
+    .depth {
+      width: 1.8rem;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      background: transparent;
+      height: 1.8rem;
+      color: gray(72%);
+      &.enabled {
+        border-color: gray(72%);
+      }
+      &.active {
+        border-color: #EF8354;
+        background: #EF8354;
+        color: #FFF;
+      }
+    }
+  }
+
+}
+
+div.md {
+
+  word-break: break-word;
+
+  p {
+    margin-bottom: 0.45rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  blockquote {
+    margin: 0.9rem 0.9rem;
+    padding: 0 1.8rem;
+    border-left: 1.35rem solid #F7F7F7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+  }
+
+}

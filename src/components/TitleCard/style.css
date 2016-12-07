@@ -1,0 +1,51 @@
+.title-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  .img {
+    width: 7.2rem;
+    min-height: 7.2rem;
+    border-radius: 4px;
+    margin-right: 0.9rem;
+    align-self: stretch;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  .content {
+    flex: 1;
+
+    p.title {
+      margin-bottom: 0.45rem;
+    }
+
+    .meta,
+    .links {
+      display: flex;
+      flex-direction: row;
+      p {
+        margin-bottom: 0;
+        font-size: 0.75rem;
+        color: gray(72%);
+        padding-left: 8px;
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+      strong {
+        color: gray(60%);
+        font-weight: 600;
+      }
+    }
+
+  }
+
+}

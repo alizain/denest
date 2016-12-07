@@ -1,0 +1,37 @@
+header.hero {
+  text-align: center;
+  padding: 1.35rem;
+  color: #FFF;
+  .wrapper {
+    background: #1CCCA5;
+    border-radius: 8px;
+    padding: 3.6rem 3.6rem 4.5rem;
+  }
+  h1 {
+
+  }
+  h2 {
+
+  }
+  .actions {
+    margin-top: 3.6rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    a {
+      padding: 0.45rem 0.9rem;
+      border: 1px solid #FFF;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #FFF;
+      margin: 0 0.45rem;
+      &:hover {
+        background: #FFF;
+        color: #1CCCA5;
+      }
+    }
+    .blog {
+    }
+    .source {
+    }
+  }
+}

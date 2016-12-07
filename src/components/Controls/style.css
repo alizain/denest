@@ -1,0 +1,65 @@
+section.controls {
+
+  text-align: center;
+  font-size: 1rem;
+
+  .sort-control {
+    .label,
+    .sort {
+      padding: 0.45rem 0.9rem;
+    }
+    .label {
+      color: gray(72%);
+    }
+    .sort {
+      cursor: pointer;
+      border-radius: 4px;
+      border: 1px solid gray(84%);
+      color: #1CCCA5;
+      background: transparent;
+      &:disabled,
+      &:hover {
+        border-color: #1CCCA5;
+        background: #1CCCA5;
+        color: #FFF;
+      }
+    }
+    .reddit {
+      border-right-color: transparent;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    .tree {
+      border-left-color: transparent;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  .keyboard-nav-control {
+    margin-left: 1.8rem;
+    button {
+      padding: 0.45rem 0.9rem;
+      cursor: pointer;
+      border-radius: 4px;
+      border: 1px solid gray(84%);
+      &.false {
+        color: #1CCCA5;
+      }
+      &.true,
+      &:hover {
+        border-color: #1CCCA5;
+        background: #1CCCA5;
+        color: #FFF;
+      }
+    }
+  }
+
+  .keyboard-nav-tip {
+    margin-top: 0.9rem;
+    line-height: 0.9rem;
+    font-size: 0.75rem;
+    color: gray(72%);
+  }
+
+}

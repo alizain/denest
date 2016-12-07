@@ -1,0 +1,60 @@
+{
+  "name": "denest",
+  "version": "0.1.0",
+  "description": "commenting experimentation",
+  "main": "index.html",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "classnames": "^2.2.5",
+    "lodash.debounce": "^4.0.8",
+    "moment-timezone": "^0.5.5",
+    "normalize.css": "^4.2.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "smoothscroll-polyfill": "^0.3.4",
+    "virtual-dom": "^2.1.1",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "json-loader": "^0.5.4",
+    "postcss": "^5.0.14",
+    "postcss-cli": "^2.4.0",
+    "postcss-color-gray": "^3.0.1",
+    "postcss-import": "postcss/postcss-import#v9-dev",
+    "postcss-initial": "^1.5.2",
+    "postcss-loader": "^1.1.1",
+    "postcss-nested": "^1.0.0",
+    "react-css-modules": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "v2.1.0-beta.27",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base public",
+    "build": "./node_modules/.bin/webpack --config ./webpack/build.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizain/denest.git"
+  },
+  "author": "Alizain Feerasta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alizain/denest/issues"
+  },
+  "homepage": "https://github.com/alizain/denest#readme"
+}
