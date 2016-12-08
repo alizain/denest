@@ -47,7 +47,7 @@
   "scripts": {
     "dev": "./node_modules/.bin/webpack-dev-server --content-base public --config ./webpack/dev.config.js",
     "build": "./node_modules/.bin/webpack --config ./webpack/build.config.js",
-    "publish": "./node_modules/.bin/gh-pages -d public"
+    "publish": "npm run build && ./node_modules/.bin/gh-pages -d public"
   },
   "repository": {
     "type": "git",
