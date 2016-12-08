@@ -1,2 +1,0 @@
-- replace browserify with webpack
-- move to index based state instead of id based

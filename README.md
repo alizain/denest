@@ -1,4 +1,5 @@
 # denest
-Experiments around making comments easier to read/follow
 
-**For JS development, run `npm run js:dev`**
+A different 😎 way to read threaded comments.
+
+**Caution: This is untested, experimental stuff!**
